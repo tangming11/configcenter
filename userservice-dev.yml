@@ -6,7 +6,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://192.168.146.130:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 spring:
   application:
     name: userservice
